@@ -19,7 +19,7 @@
   </h3></div>
 
 
-<form action="/action_page.php" autocomplete="on">
+<form action="/action_page.php" autocomplete="on" method="POST">
 	<fieldset>
 		<legend style="color: #ff0066;">CONTACT ME</legend>
   <table>
@@ -48,7 +48,11 @@
   		<td> <textarea name="message" cols="30" rows="10"></textarea></td>
   	</tr>
   </table>
-  <button type="button; sumbit" onclick="alert('Your message is sent!')">Send</button>
+  <!--<button type="button; sumbit" onclick="alert('Your message is sent!')">Send</button>-->
+
+  
+<input type="submit" value="Submit" onclick="alert('Your message is sent!')">
+  
 
  	</fieldset>
   
